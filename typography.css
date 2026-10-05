@@ -114,17 +114,6 @@
 :root .contact-section .material-divider.living-scene:after{background:linear-gradient(90deg,rgba(246,244,241,.46),rgba(246,244,241,.24) 48%,transparent 78%)}
 @media(max-width:620px){:root .philosophy.living-scene:before,:root .contact-section .material-divider.living-scene:after{background:rgba(246,244,241,.68)}}
 
-/* Text-only process: one centered stage with horizontal navigation. */
-:root .process-experience{display:block}
-:root .process-focus{max-width:920px;min-height:390px;margin:0 auto;padding:45px 30px;text-align:center;cursor:grab;touch-action:pan-y}
-:root .process-focus.is-dragging{cursor:grabbing;user-select:none}
-:root .process-focus-count{margin-bottom:32px}
-:root .process-focus h4{max-width:none;min-height:0;font-size:clamp(26px,3vw,44px);line-height:1.55;margin:0 0 27px;letter-spacing:.18em}
-:root .process-focus p{max-width:570px;min-height:84px;margin:0 auto;font-size:16px;line-height:1.9}
-:root .process-focus-note{margin-top:28px}
-:root .process-scrubber{margin-top:8px}
-@media(max-width:620px){:root .process-focus{padding:30px 0;min-height:370px}:root .process-focus h4{font-size:25px;letter-spacing:.12em}:root .process-focus p{font-size:14px;min-height:100px}:root .process-focus-count{margin-bottom:25px}}
-
 /* A quiet city index, available from one portfolio view switch. */
 :root .collection-view{margin:30px 0 50px}
 :root .project-list-toggle{font-family:var(--serif);font-size:13px;font-weight:400;letter-spacing:.24em;text-transform:uppercase;display:inline-flex;align-items:center;gap:25px;background:none;color:#111;border:0;border-bottom:1px solid #111;padding:10px 0;cursor:pointer}

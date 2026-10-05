@@ -157,7 +157,7 @@ if (processExperience) {
   const range = processExperience.querySelector('[data-process-range]');
   const buttons = [...processExperience.querySelectorAll('[data-process-stage]')];
   const images = [...processExperience.querySelectorAll('.process-art-image')];
-  const art = processExperience.querySelector('.process-focus');
+  const art = processExperience.querySelector('[data-process-art]');
   const copy = processExperience.querySelector('.process-focus');
   const name = processExperience.querySelector('[data-process-name]');
   const text = processExperience.querySelector('[data-process-text]');
