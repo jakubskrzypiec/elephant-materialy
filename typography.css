@@ -1,0 +1,151 @@
+/* Short text uses the same editorial serif as project city names.
+   Paragraphs, body copy and form values retain their reading typography. */
+:root :is(h1,h2,h3,h4,.portfolio-page .portfolio-meta h2,.eyebrow,.section-label,.section-heading>span,.quiet-link,.btn,.text-link,.desktop-nav,.mobile-menu a,.hero-btn,.card-kicker,.project-meta>p,.project-placeholder b,.project-placeholder>span,.chapter-rail,.pill,.contact-list>li>span,.field>small,.contact-form button,.footer-top nav,.footer-bottom,.copy-kicker,.instagram-post-label,.instagram-preview-link,.booking-slot span,.placeholder-label,.placeholder-index,.portfolio-room,.collection-filters button,.collection-count,.portfolio-continuation,.journal-line,.process-focus-count,.process-focus-note,.process-art-caption,.process-scrubber-top,.process-milestones button,.process-visual-caption,.process-description-index,.process-current,.process-step-title,.review-text strong,.service-number,.card-no,.portfolio-wordmark,.project-next>a,.article-toc .eyebrow){font-family:var(--serif);font-weight:400;letter-spacing:.24em;text-transform:uppercase;font-style:normal}
+:root :is(.about-copy h2,.section-heading h2,.material-copy h2,.philosophy h2,.social-intro h2,.review-intro h2,.contact-copy h2,.process-heading,.faq-layout h2,.comparison-intro h2){font-size:clamp(26px,2.8vw,42px);line-height:1.5}
+:root :is(.offer .card h3,.portfolio-page .portfolio-meta h2,.journal-card h2,.service-panel h2){font-size:22px;line-height:1.6}
+:root :is(.process-focus h4,.article-body h2){font-size:28px;line-height:1.5}
+:root .page-banner h1{font-size:clamp(32px,3.6vw,52px);line-height:1.5;max-width:1100px}
+:root :is(.desktop-nav,.subpage .desktop-nav){font-size:13px}
+:root :is(.btn,.text-link,.quiet-link,.hero-btn,.pill,.contact-form button,.collection-filters button,.footer-top nav){font-size:12px;line-height:1.6}
+:root :is(.eyebrow,.chapter-rail,.card-kicker,.section-label,.section-heading>span,.field>small,.contact-list>li>span,.portfolio-room,.collection-count,.placeholder-label,.placeholder-index,.portfolio-continuation,.journal-line,.footer-bottom,.instagram-preview-link,.instagram-post-label,.process-focus-count,.process-focus-note,.process-art-caption,.process-scrubber-top,.process-milestones button){font-size:11px;line-height:1.7}
+:root .portfolio-meta h2{font-size:18px}
+:root .portfolio-collection-heading h2{font-size:18px}
+:root .portfolio-interlude-copy h2{font-size:15px;line-height:1.6}
+:root .project-meta h3{font-size:20px;line-height:1.5}
+:root .project-next>a{font-size:24px;line-height:1.5}
+:root .mobile-menu a{font-size:26px;line-height:1.5}
+:root .article-toc a{font-family:var(--serif);font-size:13px;font-weight:400;letter-spacing:.12em;line-height:1.7}
+:root .booking h3{font-size:24px;line-height:1.5}
+:root .card-no,:root .service-number{letter-spacing:.05em}
+@media(max-width:620px){
+ :root :is(.about-copy h2,.section-heading h2,.material-copy h2,.philosophy h2,.social-intro h2,.review-intro h2,.contact-copy h2,.process-heading,.faq-layout h2,.comparison-intro h2){font-size:26px;line-height:1.5}
+ :root .page-banner h1{font-size:30px;line-height:1.5}
+ :root :is(.offer .card h3,.journal-card h2,.service-panel h2){font-size:20px;line-height:1.6}
+ :root :is(.process-focus h4,.article-body h2){font-size:22px;line-height:1.5}
+ :root :is(.hero-btn,.process-milestones button,.process-scrubber-top,.chapter-rail,.field>small,.footer-bottom){font-size:10px}
+ :root .portfolio-meta h2{font-size:17px}
+ :root .portfolio-collection-heading h2{font-size:14px}
+ :root .collection-filters button{font-size:11px}
+ :root .placeholder-label{font-size:10px}
+}
+:root .portfolio-page .portfolio-meta h2{font-size:18px}
+:root :is(.faq-layout summary,.portfolio-motion-control button){font-family:var(--serif);font-weight:400;font-size:13px;letter-spacing:.24em;text-transform:uppercase;line-height:1.8}
+:root .article-toc a{letter-spacing:.24em}
+@media(max-width:620px){:root .portfolio-page .portfolio-meta h2{font-size:17px}}
+:root :is(.page-invite>a,.review-text small,.instagram-profile small,.service-bottom small,.comparison-scroll thead th){font-family:var(--serif);font-weight:400;letter-spacing:.24em;text-transform:uppercase;font-style:normal}
+:root .page-invite>a{font-size:28px;line-height:1.6}
+:root :is(.review-text small,.instagram-profile small,.service-bottom small){font-size:11px;line-height:1.8}
+:root .comparison-scroll thead th{font-size:17px;line-height:1.6}
+@media(max-width:620px){:root .page-invite>a{font-size:22px}}
+
+/* Larger chapter titles retain the project archive's spacing and weight. */
+:root .page-banner h1{font-size:clamp(42px,4.8vw,72px)}
+:root :is(.material-copy h2,.philosophy h2){font-size:clamp(36px,4vw,58px)}
+:root .reading-page .page-banner h1{font-size:clamp(36px,4vw,58px)}
+:root .project-page .page-banner h1{font-size:clamp(36px,4vw,58px)}
+@media(max-width:620px){
+ :root .page-banner h1{font-size:38px}
+ :root :is(.material-copy h2,.philosophy h2){font-size:34px}
+ :root .reading-page .page-banner h1,:root .project-page .page-banner h1{font-size:32px}
+}
+
+/* Offer: monochrome editorial bands and readable service scope. */
+:root .offer-page main{color:#111}
+:root .offer-page .page-banner-copy p{font-family:var(--sans);font-size:16px;font-weight:400;line-height:1.8;max-width:560px;margin:14px 0 0;color:#111;letter-spacing:0;text-transform:none}
+.offer-page .page-banner:after{background:linear-gradient(90deg,rgba(246,244,241,.82),rgba(246,244,241,.48) 44%,transparent 72%)}
+:root .offer-page .chapter-rail{color:#111;border-color:#111}
+:root .offer-page .service-panel{grid-template-columns:65px 1fr 1.25fr;column-gap:4vw;padding:52px 0 56px;border-color:#111}
+:root .offer-page .service-panel:last-child{border-color:#111}
+:root .offer-page .service-number{font-size:56px;color:#111}
+:root .offer-page .service-panel>.eyebrow{font-size:11px;color:#111}
+:root .offer-page .service-panel h2{font-size:clamp(25px,2.3vw,36px);line-height:1.4;margin:18px 0 20px;letter-spacing:.18em;color:#111}
+:root .offer-page .service-panel p{font-size:15px;font-weight:400;line-height:1.85;max-width:390px;color:#111}
+:root .offer-page .service-panel ul{display:block}
+:root .offer-page .service-panel li{font-size:14px;font-weight:400;padding:12px 0;border-bottom:1px solid #d3d3d3;color:#111}
+:root .offer-page .service-panel li:first-child{padding-top:0}
+:root .offer-page .service-panel li:before{color:#111}
+:root .offer-page .service-bottom{padding-top:24px}
+:root .offer-page .service-bottom small{font-size:12px;color:#111;letter-spacing:.12em}
+:root .offer-page .service-bottom .text-link{font-size:12px;color:#111;letter-spacing:.14em;padding:9px 0;border-bottom:1px solid #111;display:inline-block}
+:root .offer-page .offer-note{font-size:14px;font-weight:400;color:#333;line-height:1.85}
+:root .offer-page .comparison-section{background:#fff;border-top:1px solid #111;border-bottom:1px solid #111}
+:root .offer-page .comparison-intro p{font-size:15px;font-weight:400;max-width:330px;color:#111}
+:root .offer-page .comparison-scroll table{font-size:14px;color:#111}
+:root .offer-page .comparison-scroll thead th{font-size:14px;letter-spacing:.12em;color:#111;border-bottom-color:#111}
+:root .offer-page .comparison-scroll th,:root .offer-page .comparison-scroll td{border-color:#d3d3d3}
+:root .offer-page .faq-layout summary{font-size:15px;font-weight:400;color:#111}
+:root .offer-page .faq-layout p{font-size:14px;color:#111}
+@media(max-width:980px){:root .offer-page .service-panel{grid-template-columns:45px 1fr 1.1fr;column-gap:24px}:root .offer-page .service-panel h2{font-size:25px;letter-spacing:.12em}}
+@media(max-width:620px){:root .offer-page .page-banner{height:320px}:root .offer-page .page-banner-copy p{font-size:14px;max-width:85%;line-height:1.75}:root .offer-page .service-panel{grid-template-columns:32px minmax(0,1fr);column-gap:20px;padding:36px 0 40px}:root .offer-page .service-number{font-size:34px}:root .offer-page .service-panel h2{font-size:25px}:root .offer-page .service-panel>.eyebrow{font-size:10px}:root .offer-page .service-panel p{font-size:14px}:root .offer-page .service-panel ul{grid-column:2;grid-row:4}:root .offer-page .service-bottom{grid-column:2;grid-row:5}:root .offer-page .service-bottom .text-link{font-size:11px}:root .offer-page .comparison-scroll table{font-size:13px}}
+
+/* Text-led journal, with the same calm introduction as the offer page. */
+:root :is(.portfolio-page,.journal-page) .page-banner-copy p{font-family:var(--sans);font-size:16px;font-weight:400;line-height:1.8;max-width:560px;margin:14px 0 0;color:#111;letter-spacing:0;text-transform:none}
+:is(.portfolio-page,.journal-page) .page-banner:after{background:linear-gradient(90deg,rgba(246,244,241,.82),rgba(246,244,241,.48) 44%,transparent 72%)}
+
+
+/* Journal feature: photography and calm reading blocks. */
+:root .journal-page .journal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+:root .journal-page .journal-card{grid-column:auto;min-width:0}
+:root .journal-page .journal-card>a{display:flex;flex-direction:column;align-items:start;background:none;min-height:0;padding:28px 0 0;height:100%;color:#111;border-top:1px solid #b7b3ad}
+:root .journal-page .journal-card .eyebrow{margin:0 0 23px;font-size:11px;color:#111;align-self:auto}
+:root .journal-page .journal-card h2{margin:0 0 24px;max-width:520px;font-size:clamp(24px,2.3vw,34px);line-height:1.5;letter-spacing:.12em;color:#111}
+:root .journal-page .journal-card p{margin:0 0 28px;min-height:0;max-width:450px;font-size:15px;font-weight:400;line-height:1.85;color:#333}
+:root .journal-page .journal-card .text-link{display:inline-block;margin:auto 0 0;padding:9px 0;border-bottom:1px solid #111;align-self:start;font-size:12px;letter-spacing:.14em;color:#111}
+:root .journal-page .journal-card>a:focus-visible{outline:2px solid #111;outline-offset:8px}
+@media(hover:hover){:root .journal-page .journal-card .text-link{transition:letter-spacing .3s}:root .journal-page .journal-card>a:hover .text-link{letter-spacing:.2em}}
+@media(max-width:980px){:root .journal-page .journal-feature{gap:35px;grid-template-columns:1fr 1fr}:root .journal-page .journal-feature-image{height:380px}:root .journal-page .journal-feature h2{font-size:30px}}
+@media(max-width:620px){:root :is(.portfolio-page,.journal-page) .page-banner{height:320px}:root :is(.portfolio-page,.journal-page) .page-banner-copy p{font-size:14px;max-width:85%;line-height:1.75}:root .journal-page .journal-grid{grid-template-columns:1fr;gap:40px}:root .journal-page .journal-feature{grid-template-columns:1fr;gap:30px}:root .journal-page .journal-feature-image{height:280px}:root .journal-page .journal-card h2{font-size:26px}:root .journal-page .journal-feature h2{font-size:30px}:root .journal-page .journal-card p{font-size:14px}:root .journal-page .chapter-rail{gap:22px;line-height:1.9}}
+@media(prefers-reduced-motion:reduce){:root .journal-page .journal-card .text-link{transition:none}}
+
+/* A single generous form, shared by Start and Contact. */
+:root .contact{display:block;min-height:0;padding-top:80px;padding-bottom:90px}
+:root .contact .contact-main{width:100%;max-width:1040px;margin:0 auto;padding:0;border:0}
+:root .contact-page .page-banner-copy p{font-family:var(--sans);font-size:16px;font-weight:400;line-height:1.8;max-width:560px;margin:14px 0 0;color:#111;letter-spacing:0;text-transform:none}
+.contact-page .page-banner:after{background:linear-gradient(90deg,rgba(246,244,241,.82),rgba(246,244,241,.48) 44%,transparent 72%)}
+:root .journal-page .journal-card h2{font-size:clamp(23px,2vw,30px);letter-spacing:.1em}
+@media(max-width:980px){:root .journal-page .journal-grid{gap:26px}:root .journal-page .journal-card h2{font-size:23px;letter-spacing:.06em}}
+@media(max-width:620px){:root .contact{padding-top:40px;padding-bottom:55px}:root .contact-page .page-banner{height:320px}:root .contact-page .page-banner-copy p{font-size:14px;max-width:85%;line-height:1.75}:root .journal-page .journal-grid{grid-template-columns:1fr;gap:35px}:root .journal-page .journal-card h2{font-size:26px;letter-spacing:.1em}}
+
+/* New interior interludes: readable copy over genuinely moving light. */
+:root .philosophy.living-scene:before{background:linear-gradient(90deg,rgba(246,244,241,.46),rgba(246,244,241,.24) 48%,transparent 78%)}
+:root .philosophy.living-scene .philosophy-content{position:relative;z-index:3}
+:root .philosophy.living-scene .philosophy-simple{max-width:760px}
+:root .contact-section .material-divider.living-scene .material-copy p{max-width:760px}
+:root .contact-section .material-divider.living-scene:after{background:linear-gradient(90deg,rgba(246,244,241,.46),rgba(246,244,241,.24) 48%,transparent 78%)}
+@media(max-width:620px){:root .philosophy.living-scene:before,:root .contact-section .material-divider.living-scene:after{background:rgba(246,244,241,.68)}}
+
+/* Text-only process: one centered stage with horizontal navigation. */
+:root .process-experience{display:block}
+:root .process-focus{max-width:920px;min-height:390px;margin:0 auto;padding:45px 30px;text-align:center;cursor:grab;touch-action:pan-y}
+:root .process-focus.is-dragging{cursor:grabbing;user-select:none}
+:root .process-focus-count{margin-bottom:32px}
+:root .process-focus h4{max-width:none;min-height:0;font-size:clamp(26px,3vw,44px);line-height:1.55;margin:0 0 27px;letter-spacing:.18em}
+:root .process-focus p{max-width:570px;min-height:84px;margin:0 auto;font-size:16px;line-height:1.9}
+:root .process-focus-note{margin-top:28px}
+:root .process-scrubber{margin-top:8px}
+@media(max-width:620px){:root .process-focus{padding:30px 0;min-height:370px}:root .process-focus h4{font-size:25px;letter-spacing:.12em}:root .process-focus p{font-size:14px;min-height:100px}:root .process-focus-count{margin-bottom:25px}}
+
+/* A quiet city index, available from one portfolio view switch. */
+:root .collection-view{margin:30px 0 50px}
+:root .project-list-toggle{font-family:var(--serif);font-size:13px;font-weight:400;letter-spacing:.24em;text-transform:uppercase;display:inline-flex;align-items:center;gap:25px;background:none;color:#111;border:0;border-bottom:1px solid #111;padding:10px 0;cursor:pointer}
+:root .project-list-toggle:focus-visible,:root .project-city-list a:focus-visible{outline:1px solid #111;outline-offset:6px}
+:root .project-city-list{max-width:460px;margin:70px auto 100px;min-height:350px}
+:root .project-city-list ol{list-style:none;margin:0;padding:0}
+:root .project-city-list a{display:grid;grid-template-columns:36px 1fr 25px;align-items:center;gap:16px;padding:13px 0;font-family:var(--serif);font-weight:400;font-size:18px;letter-spacing:.2em;text-transform:uppercase;color:#111}
+:root .project-city-list a>span:first-child{font-size:12px;color:#777}
+:root .city-list-arrow{opacity:0;transform:translateX(-6px);transition:opacity .25s,transform .25s}
+:root .project-city-list a:hover .city-list-arrow,:root .project-city-list a:focus-visible .city-list-arrow{opacity:1;transform:none}
+:root .portfolio-page :is(.portfolio-grid,.project-city-list,.project-list-toggle)[hidden]{display:none!important}
+@media(max-width:620px){:root .collection-view{margin:22px 0 35px}:root .project-city-list{margin:45px auto 60px;min-height:280px}:root .project-city-list a{font-size:17px}:root .city-list-arrow{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){:root .city-list-arrow{transition:none}}
+
+/* Full-screen white project index. */
+:root .project-list-overlay{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:110px 7vw 70px;border:0;background:#fff;color:#111;overflow:auto;overscroll-behavior:contain}
+:root .project-list-overlay[open]{display:grid;place-items:center}
+:root .project-list-overlay::backdrop{background:#fff}
+:root .project-list-overlay>h2{position:absolute;top:40px;left:6vw;margin:0;font-size:14px;letter-spacing:.24em;line-height:1.8}
+:root .project-list-close{position:absolute;top:24px;right:5vw;width:54px;height:54px;background:none;border:0;color:#111;font-family:var(--sans);font-size:38px;font-weight:300;line-height:1;cursor:pointer}
+:root .project-list-close:focus-visible{outline:1px solid #111;outline-offset:4px}
+:root .project-list-overlay .project-city-list{width:100%;max-width:460px;margin:0;min-height:0}
+:root .project-list-overlay .project-city-list a{padding:17px 0;font-size:22px}
+@media(max-width:620px){:root .project-list-overlay{padding:100px 9vw 45px}:root .project-list-overlay>h2{left:9vw;top:34px;font-size:12px}:root .project-list-close{right:5vw;top:20px}:root .project-list-overlay .project-city-list a{font-size:19px;padding:15px 0}}
